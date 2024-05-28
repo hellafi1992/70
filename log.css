@@ -1,0 +1,120 @@
+body{
+  background-image:
+  url(background22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.login-form {
+    width: 300px;
+    translate: 0px 90px;
+    margin: 100px auto;
+    padding: 20px;
+    border-top: none;
+    border-radius: 5px 5px 500px 500px;
+    background: none;
+    box-shadow: 0px 550px 40px 500px rgba(252, 233, 112, 0.3);
+    text-align: center;
+    transition: all 5s;
+}
+
+h2{
+  animation: h2 3s linear infinite;
+}
+@keyframes h2 {
+  from{
+    transform: rotateY(25deg);
+  }
+  to{
+    transform: rotateY(-25deg);
+  }
+}
+
+
+.login-form h2{
+    margin-top: 0;
+    font-size: 54px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    color: #e2e753;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    content: "";
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1.5px inset black;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 29px yellow;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .login-form input[type="submit"] {
+    background: none;
+    color: silver;
+    font-family: cursive;
+    font-weight: 900;
+    border: none;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 8s;
+  }
+
+  .login-form input[type="submit"]:hover {
+    border: none;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form input[type="submit"]:hover {
+    font-family: cursive;
+    font-weight: 900;
+    background-color: goldenrod;
+    color: rgb(14, 6, 255);
+  }
+  
+  .login-form input[type="checkbox"] {
+    display: inline-block;
+    translate: -70px -30px;
+    margin-right: 10px;
+  }
+  
+  .login-form p {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: blueviolet;
+    margin-top: 20px;
+  }
+  
+  .login-form a {
+    color: goldenrod;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+
+  .login-form:hover{
+    box-shadow: none;
+  }
