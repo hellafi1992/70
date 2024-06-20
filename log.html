@@ -7,19 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="login-form">
-        <h2>Login</h2>
-        <form method="post" action="/login">
-        <input type="text" id="username" name="username" placeholder="أسم المستخدم" required>
-        <br>
-        <input type="password" id="password" name="password" placeholder="كلمة المرور" required>
-        <br>
-        <input type="submit" value="Login">
-        <input type="checkbox" id="remember" name="remember" checked>
-        <label for="remember">Remember me</label>
-        </form>
-        <p><a href="#">Forgot your password?</a></p>
-    </div>
+    <div class="container">
+		<h1>Login</h1>
+		<form id="login-form">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+			<input type="submit" value="Login">
+		</form>
+		<p id="error-message"></p>
+	</div>
     <script src="script.js"></script>
 </body>
 </html>
